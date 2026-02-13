@@ -8,8 +8,8 @@
   --bg-secondary: #1a1a1a;
   --text-primary: #ffffff;
   --text-secondary: #a0a0a0;
-  --accent-primary: #f59e0b;
-  --accent-secondary: #fbbf24;
+  --accent-primary: hsl(38, 78%, 75%);
+  --accent-secondary: #E6B65C ;
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --font-display: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
