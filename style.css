@@ -11,7 +11,7 @@
   
   /* Accent color meets WCAG AA standards (4.5:1 contrast ratio on dark background) */
   /* #fbbf24 on #0a0a0a = 8.35:1 contrast ratio ✓ */
-  --accent-primary: #fbbf24;
+  --accent-primary: #f1d795;
   --accent-secondary: #fcd34d;
   
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
