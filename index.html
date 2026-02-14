@@ -41,7 +41,7 @@
                     <span>Hi, I'm <span class="name-highlight">Yara Vasquez</span></span>
                 </h1>
                 <p class="hero-description">
-                    Software Engineer who cares deeply about accessibility and building web experiences that reach everyone.
+                    Software Engineer who cares deeply about accessibility and building web experiences that include everyone.
                 </p>
                 
                 <!-- Social Links -->
@@ -66,7 +66,7 @@
                         </svg>
                     </a>
                     
-                    <a href="https://www.linkedin.com/in/yara-vasquez-ab4b75277/" 
+                    <a href="https://www.linkedin.com/in/yaralili/" 
                        class="social-link" 
                        target="_blank" 
                        rel="noopener noreferrer"
@@ -174,11 +174,133 @@
         </div>
     </section>
 
-    <!-- Portfolio Section (Placeholder) -->
-    <section id="portfolio" style="min-height: 100vh; padding: 6rem 2rem; display: flex; align-items: center; justify-content: center;">
-        <div style="max-width: 1200px; text-align: center;">
-            <h2 style="font-size: 3rem; margin-bottom: 2rem; color: var(--accent-primary);">Portfolio</h2>
-            <p style="font-size: 1.2rem; color: var(--text-secondary);">Projects coming soon...</p>
+    <!-- Portfolio Section -->
+    <section id="portfolio" style="min-height: 100vh; padding: 6rem 2rem; background-color: var(--bg-primary);">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="font-size: 3rem; margin-bottom: 1rem; color: var(--accent-primary); text-align: center;">Portfolio</h2>
+            <p style="font-size: 1.1rem; color: var(--text-secondary); text-align: center; margin-bottom: 4rem;">Selected projects showcasing my work in accessible design and development</p>
+            
+            <!-- CareConnect Project -->
+            <article class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">CareConnect</h3>
+                    <p class="project-subtitle">Caregiving Coordination App for Patients with Cognitive Conditions</p>
+                </div>
+                
+                <div class="project-meta">
+                    <span class="meta-item"><strong>Role:</strong> Frontend Developer & UI/UX Designer</span>
+                    <span class="meta-item"><strong>Timeline:</strong> Aug-Nov 2024</span>
+                    <span class="meta-item"><strong>Tech:</strong> Java, Spring Boot, Flutter, React, Figma</span>
+                </div>
+                
+                <p class="project-description">
+                    Designed and developed features for a mobile healthcare app connecting caregivers 
+                    and patients with dementia, Alzheimer's, and Parkinson's disease. I created accessible 
+                    Figma prototypes and implemented backend medication tracking REST API endpoints using 
+                    Java/Spring Boot.
+                </p>
+                
+                <!-- Onboarding & Authentication -->
+                <h4 class="gallery-section-title">Onboarding & Authentication</h4>
+                <div class="project-gallery">
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/splash.png" 
+                             alt="CareConnect splash screen with app branding"
+                             loading="lazy">
+                        <p class="image-caption">Splash Screen: Welcoming interface with accessible color contrast</p>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/login-page.png" 
+                             alt="Login interface with large touch targets"
+                             loading="lazy">
+                        <p class="image-caption">Login Page: Large touch targets designed for elderly users</p>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/demo.png" 
+                             alt="Demo credentials screen for testing"
+                             loading="lazy">
+                        <p class="image-caption">Demo Credentials: Easy testing access for stakeholders</p>
+                    </div>
+                </div>
+                
+                <!-- Patient Experience -->
+                <h4 class="gallery-section-title">Patient Experience</h4>
+                <div class="project-gallery">
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/patient-homepage.png" 
+                             alt="Patient dashboard with medication schedule and appointments"
+                             loading="lazy">
+                        <p class="image-caption">Patient Home: Clear medication schedule and upcoming appointments</p>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/patient-features.png" 
+                             alt="Patient features including symptom tracking and virtual check-in"
+                             loading="lazy">
+                        <p class="image-caption">Patient Features: Symptom tracking and virtual check-in (my implementation)</p>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/notification-banner.png" 
+                             alt="Medication reminder notification banner"
+                             loading="lazy">
+                        <p class="image-caption">Notifications: Accessible medication reminders with high contrast</p>
+                    </div>
+                </div>
+                
+                <!-- Caregiver Experience -->
+                <h4 class="gallery-section-title">Caregiver Experience</h4>
+                <div class="project-gallery">
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/caregiver-homepage.png" 
+                             alt="Caregiver dashboard showing patient overview and tasks"
+                             loading="lazy">
+                        <p class="image-caption">Caregiver Home: Patient overview with medication approval workflow</p>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/caregiver-features.png" 
+                             alt="Caregiver features for medication management"
+                             loading="lazy">
+                        <p class="image-caption">Caregiver Tools: Medication tracking REST API I implemented</p>
+                    </div>
+                </div>
+                
+                <!-- Accessibility & Settings -->
+                <h4 class="gallery-section-title">Accessibility & Settings</h4>
+                <div class="project-gallery">
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/accessibility.png" 
+                             alt="Accessibility features including font size and contrast options"
+                             loading="lazy">
+                        <p class="image-caption">Accessibility: WCAG-compliant options for font size, contrast, and screen reader support</p>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="assets/careconnect/profile-settings.png" 
+                             alt="Profile settings and preferences screen"
+                             loading="lazy">
+                        <p class="image-caption">Profile Settings: User preferences and account management</p>
+                    </div>
+                </div>
+                
+                <div class="project-highlights">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Designed accessible UI in Figma following WCAG guidelines for elderly users</li>
+                        <li>Implemented medication tracking REST API (Java/Spring Boot): fetch, add, approve, delete endpoints</li>
+                        <li>Developed patient virtual check-in page with symptom tracking</li>
+                        <li>Collaborated in agile team: daily standups, code reviews, Git/GitHub workflows</li>
+                    </ul>
+                </div>
+                
+                <div class="project-links">
+                    <a href="#contact" class="btn-secondary">Get in Touch</a>
+                    <a href="https://github.com/YaraHub25" target="_blank" rel="noopener noreferrer" class="btn-secondary">View GitHub</a>
+                </div>
+            </article>
         </div>
     </section>
 
