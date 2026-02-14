@@ -115,7 +115,11 @@ See [ACCESSIBILITY.md](./ACCESSIBILITY.md) for complete checklist and testing pr
 
 ## 🎓 Education
 
+<<<<<<< HEAD
 **Master of Science in Software Engineering** - University of Maryland Global Campus (December 2024)
+=======
+**Master of Science in Software Engineering** - University of Maryland Global Campus (December 2025)
+>>>>>>> f4bb6bf803ddcb12e3f867c79c85f2b57fb52e37
 
 ## 🚧 Roadmap
 
@@ -132,4 +136,8 @@ MIT License - Feel free to fork and use as a template! Just give credit and remo
 
 ---
 
+<<<<<<< HEAD
 **Built with ♥ by Yara Vasquez** | Focused on accessibility, inclusivity, and clean code
+=======
+**Built with ♥ by Yara Vasquez** | Focused on accessibility, inclusivity, and clean code
+>>>>>>> f4bb6bf803ddcb12e3f867c79c85f2b57fb52e37

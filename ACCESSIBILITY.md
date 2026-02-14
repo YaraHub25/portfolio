@@ -188,4 +188,8 @@ Space - Scroll page
 
 ---
 
+<<<<<<< HEAD
 **Your portfolio is designed to be accessible to ALL users!** ♿✨
+=======
+**Your portfolio is designed to be accessible to ALL users!** ♿✨
+>>>>>>> f4bb6bf803ddcb12e3f867c79c85f2b57fb52e37
