@@ -115,7 +115,7 @@ See [ACCESSIBILITY.md](./ACCESSIBILITY.md) for complete checklist and testing pr
 
 ## 🎓 Education
 
-**Master of Science in Software Engineering** - University of Maryland Global Campus (December 2024)
+**Master of Science in Software Engineering** - University of Maryland Global Campus (December 2025)
 
 ## 🚧 Roadmap
 
